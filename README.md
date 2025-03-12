@@ -23,7 +23,7 @@ A Blender addon that integrates LLM chat functionality directly into Blender usi
 
 1. Download the latest release or clone this repository
 2. In Blender, go to Edit > Preferences > Add-ons > Install
-3. Select the `__init__.py` file or the ZIP of the entire repository
+3. Select the `llm.py` file or the ZIP of the entire repository
 4. Enable the addon by checking the box next to "Blender LLM"
 
 ### Installing the Required Dependencies
@@ -48,8 +48,10 @@ This addon requires the `requests` library. If you're using Blender's bundled Py
 4. Configure the Ollama URL in Edit > Preferences > Add-ons > Blender LLM
 5. Click "Refresh Models" to load available models from your Ollama installation
 6. Select a model from the dropdown
-7. Type your prompt in the text field and press the send button
+7. Type your prompt in the text field and press Enter or click the send button
 8. Watch the response stream in real-time in the chat history
+9. If your request involves Blender operations, the LLM will respond with executable Python code
+10. Click "Execute Code" below code blocks to run them (or enable Auto-Execute in preferences)
 
 ## Features
 
