@@ -2,6 +2,10 @@
 
 A Blender addon that integrates LLM chat functionality directly into Blender using Ollama.
 
+## Demo
+
+![Blender LLM Demo](content/blender-llm.mp4)
+
 ## Features
 
 - Chat with LLMs directly from within Blender
