@@ -4,7 +4,7 @@ A Blender addon that integrates LLM chat functionality directly into Blender usi
 
 ## Demo
 
-![Blender LLM Demo](content/blender-llm.mp4)
+[![Blender LLM Demo](https://img.youtube.com/vi/uvdLHjl3L4Y/0.jpg)](https://youtu.be/uvdLHjl3L4Y)
 
 ## Features
 
